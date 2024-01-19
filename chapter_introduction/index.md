@@ -1241,7 +1241,7 @@ Say we had a classification problem.
 We could create a reinforcement learning agent
 with one action corresponding to each class.
 We could then create an environment which gave a reward
-that was exactly equal to the loss function
+that was equal to the negative of the loss function
 from the original supervised learning problem.
 
 Further, reinforcement learning
